@@ -1,7 +1,7 @@
 function updateCountdown() {
     const now = new Date();
     let target = new Date();
-    target.setHours(17, 20, 0, 0);
+    target.setHours(16, 20, 0, 0);
 
     // If current time is past 17:20, set target to next day
     if (now > target) {
